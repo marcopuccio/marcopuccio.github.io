@@ -1,0 +1,7 @@
+*.swn
+*.swo
+*.swp
+
+watch.sh
+
+node_modules/

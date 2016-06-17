@@ -1,0 +1,115 @@
+//
+// CUSTOM SASS MIXINS
+// ** require foundation mixins for mediaquery breakpoints **
+// 
+
+// Pads & Margs //
+// pad[top|right|bottom|left]-[0-6] em
+@each $c in "top","right","bottom","left" {
+  @for $i from 0 through 6 { 
+    .pad#{$c}-#{$i} { 
+      padding-#{$c}: 1em * $i; 
+    } 
+  } 
+}
+// mar[top|right|bottom|left]-[0-6] em
+@each $c in "top","right","bottom","left" {
+  @for $i from 0 through 6 {
+    .mar#{$c}-#{$i} {
+      margin-#{$c}: 1em * $i  !important; 
+    } 
+  } 
+}
+
+@mixin css3-columns($count, $gap, $rule:none) {
+  @include breakpoint(medium) {
+    // Chrome & Saf3
+    -webkit-column-count: $count;
+    -webkit-column-gap: $gap;
+    -webkit-column-rule: $rule;
+    // FF3.5+ *
+    -moz-column-count: $count;   
+    -moz-column-gap: $gap; 
+    -moz-column-rule: $rule;
+    // Opera 11+
+    column-count: $count;        
+    column-gap: $gap; 
+    column-rule: $rule;
+  }
+}
+
+@mixin css3-box-shadow($top, $left, $blur, $color) {
+  -webkit-box-shadow: $top $left $blur rgba($color, 0.7);
+  -moz-box-shadow: $top $left $blur rgba($color, 0.7);
+  box-shadow: $top $left $blur rgba($color, 0.7);
+}
+
+
+// Foundation custom mixins
+@mixin custom-orbit($arrow-color, $button-hover) {
+  .orbit {
+    ul.orbit-container {
+      .orbit-previous, .orbit-next {
+        @include css3-box-shadow(0, 0, 0, transparent);
+        color: $arrow-color;
+        
+        // responsive buttons
+        @include breakpoint(small){
+          font-size: rem-calc(16);
+        }
+        @include breakpoint(medium){
+          font-size: rem-calc(32);
+        }
+        @include breakpoint(large){
+          font-size: rem-calc(48);
+        }
+
+        &.active, &:focus {
+          background-color: transparent;
+        }
+        &:hover {
+          background-color: rgba($button-hover, 0.5);
+        }
+      }
+      li {
+        .content-wrapper {
+          position: relative;
+          .item-content {
+            color: $white;
+            position: absolute;
+            left: 10%;
+            bottom: 12%;
+            right: 8%;
+          }
+        }
+      }
+    }
+    .orbit-bullets {
+      position: absolute;
+      bottom: rem-calc(10);
+      left: 50%;
+      @include translate(-50%, 50%);
+    }
+  }
+}
+
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+  -moz-transform: $transforms;
+  -ms-transform: $transforms;
+  -o-transform: $transforms;
+  transform: $transforms;
+}
+
+@mixin transform-origin ($origin) {
+  moz-transform-origin: $origin;
+  -o-transform-origin: $origin;
+  -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+  transform-origin: $origin;
+}
+
+
+@mixin translate ($x, $y) {
+  @include transform(translate($x, $y));
+}

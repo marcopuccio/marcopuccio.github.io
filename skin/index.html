@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marsxn</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script src="assets/bower_components/angular/angular.min.js"></script>
+  <script src="assets/bower_components/angular-route/angular-route.min.js"></script>
+</head>
+
+<body ng-app="marsxnApp">
+  <!-- Site Header-->
+  <header ng-controller="indexController">
+    <div class="row">
+      <div class="small-3 column">
+        <img src="{{ marsxn.picture }}" alt="{{ marsxn.fullname }}">
+      </div>
+      <div class="small-9 columns">
+        <h1>{{ marsxn.fullname }}</h1>
+        <h3>{{ marsxn.job }}</h3>
+        <p>{{ marsxn.location }}</p>
+        <a href="" ng-click="toggle = !toggle"><span ng-show="!toggle">Contact Me!</span><span ng-show="toggle">{{ marsxn.mail }}</span></a>
+      </div>
+    </div>
+    <!--Nav-->
+    <nav>
+      <div class="row column">
+        <div class="menu-centered">
+          <ul class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Dynamic Content -->
+  <main class="row">
+    <div class="small-12 medium-10 column small-centered" ng-view></div>
+  </main>
+
+  <!--Site Footer-->
+  <footer ng-controller="indexController">
+    <div class="row small-up-1">
+      <div class="column" ng-repeat='(name, url) in marsxn.social'>
+        <a href="{{ url }}" target="_new">{{ name | uppercase }}</a>
+      </div>
+    </div>
+    <div class="row column text-center">
+      <small>
+        Copyright © 2016 Marco Puccio
+      </small>
+    </div>
+  </footer>
+
+  <!--Angular Scripts-->
+  <script src="app/app.js"></script>
+  <script src="app/services/apiDataService.js"></script>
+  <script src="app/shared/index/indexController.js"></script>
+  <script src="app/components/main/mainController.js"></script>
+  <script src="app/components/portfolio/portfolioController.js"></script>
+</body>
+
+</html>

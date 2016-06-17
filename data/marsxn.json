@@ -1,0 +1,10 @@
+{
+  "fullname": "Marco Puccio",
+  "mail": "fake@email.io",
+  "location": "Buenos Aires, Argentina",
+  "job": "Web Application Developer",
+  "picture": "assets/img/MarcoPuccio.jpg",
+  "social": {
+    "github": "https://github.com/marsxn"
+  }
+}
