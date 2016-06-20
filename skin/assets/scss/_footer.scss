@@ -1,0 +1,10 @@
+footer {
+  background-color: $red-color;
+  a {
+    color: $white;
+    &:hover {
+      color: scale-color($white, $lightness: -14%);
+      text-decoration: underline;
+    }
+  }
+}

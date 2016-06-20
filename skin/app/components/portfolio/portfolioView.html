@@ -2,19 +2,17 @@
   <div class="row column">
     <h1>Websites</h1>
   </div>
-  <div class="row small-up-1">
-    <div class="column martop-1" ng-repeat="site in portfolio.websites">
-      <div class="row" ng-repeat="client in site">
-        <div class="small-5 column">
-          <img src="http://placehold.it/600x400">
-        </div>
-        <div class="small-7 column">
-          <h3><a href="{{ client.url }}" target="_new">{{ client.name }}</a></h3>
-          <p class="hide-for-small-only">{{ client.summary }}</p>
-          <div class="small-up-2">
-            <div class="column" ng-repeat="tech in client.tech">
-              <span class="{{ tech }}">{{ tech }}</span>
-            </div>
+  <div class="row column martop-1" ng-repeat="site in portfolio.websites">
+    <div class="row" ng-repeat="client in site">
+      <div class="small-5 column">
+        <img src="http://placehold.it/600x400">
+      </div>
+      <div class="small-7 column">
+        <h3><a href="{{ client.url }}" target="_new">{{ client.name }}</a></h3>
+        <p class="hide-for-small-only">{{ client.summary }}</p>
+        <div class="small-up-2">
+          <div class="column" ng-repeat="tech in client.tech">
+            <span class="{{ tech }}">{{ tech }}</span>
           </div>
         </div>
       </div>

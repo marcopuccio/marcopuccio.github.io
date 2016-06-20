@@ -20,7 +20,7 @@ app.service('apiDataService', ['$http', '$q', function($http, $q) {
     return httpPromise;
   }
   // Return Main
-  function getMainExcerpt(){
+  function getMain(){
    var httpPromise = _commonHttpCall('main');
     return httpPromise; 
   }
@@ -33,7 +33,7 @@ app.service('apiDataService', ['$http', '$q', function($http, $q) {
 
   return {
     getMarsxnProfile: getMarsxnProfile,
-    getMainExcerpt: getMainExcerpt,
+    getMain: getMain,
     getPortfolio: getPortfolio
   }
 }]);

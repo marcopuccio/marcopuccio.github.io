@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6, p, a, ul li, label, div {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul li, label, span {
+  font-family: $body-font-family !important;
+}
+
+h1 {
+  font-weight: 700 !important;
+}

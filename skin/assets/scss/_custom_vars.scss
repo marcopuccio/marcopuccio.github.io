@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,700';
+
+$body-font-family: 'Oswald', Arial, sans-serif;
+
+// Colors
+
+$red-color: #940d0d;
+
+// Base Typo
+$anchor-color: $red-color;
+$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: underline;

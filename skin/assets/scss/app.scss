@@ -4,12 +4,21 @@
 @import 'foundation';
 @import 'motion-ui';
 
+@import 'custom_vars';
 @import 'custom_mixins';
+@import 'typography';
 
+@import 'header';
+@import 'main';
+@import 'footer';
 
 
 @include foundation-global-styles;
-@include foundation-grid;
+
+//@include foundation-grid;
+@include foundation-flex-grid;
+//¿@include foundation-flex-classes;
+
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;

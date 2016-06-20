@@ -3,8 +3,9 @@
   "mail": "fake@email.io",
   "location": "Buenos Aires, Argentina",
   "job": "Web Application Developer",
-  "picture": "assets/img/MarcoPuccio.jpg",
+  "picture": "assets/img/MarcoPuccio.png",
   "social": {
-    "github": "https://github.com/marsxn"
+    "github": "https://github.com/marsxn",
+    "linkedin": "https://github.com/marsxn"
   }
 }

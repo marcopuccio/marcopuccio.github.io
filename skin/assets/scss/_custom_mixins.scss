@@ -44,55 +44,6 @@
   box-shadow: $top $left $blur rgba($color, 0.7);
 }
 
-
-// Foundation custom mixins
-@mixin custom-orbit($arrow-color, $button-hover) {
-  .orbit {
-    ul.orbit-container {
-      .orbit-previous, .orbit-next {
-        @include css3-box-shadow(0, 0, 0, transparent);
-        color: $arrow-color;
-        
-        // responsive buttons
-        @include breakpoint(small){
-          font-size: rem-calc(16);
-        }
-        @include breakpoint(medium){
-          font-size: rem-calc(32);
-        }
-        @include breakpoint(large){
-          font-size: rem-calc(48);
-        }
-
-        &.active, &:focus {
-          background-color: transparent;
-        }
-        &:hover {
-          background-color: rgba($button-hover, 0.5);
-        }
-      }
-      li {
-        .content-wrapper {
-          position: relative;
-          .item-content {
-            color: $white;
-            position: absolute;
-            left: 10%;
-            bottom: 12%;
-            right: 8%;
-          }
-        }
-      }
-    }
-    .orbit-bullets {
-      position: absolute;
-      bottom: rem-calc(10);
-      left: 50%;
-      @include translate(-50%, 50%);
-    }
-  }
-}
-
 @mixin transform($transforms) {
   -webkit-transform: $transforms;
   -moz-transform: $transforms;
@@ -108,7 +59,6 @@
   -webkit-transform-origin: $origin;
   transform-origin: $origin;
 }
-
 
 @mixin translate ($x, $y) {
   @include transform(translate($x, $y));
