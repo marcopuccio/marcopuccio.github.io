@@ -199,6 +199,41 @@ header {
       header .profile h1 {
         line-height: 1.5rem; } }
 
+section.websites .site {
+  border: 1px solid #8a8a8a;
+  padding: 0.625rem;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem; }
+  section.websites .site .image {
+    max-height: 15.625rem;
+    overflow: hidden; }
+  section.websites .site .resume {
+    margin-top: 1rem; }
+    section.websites .site .resume .tech .angularjs {
+      content: url(../img/logo/angularjs.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .express {
+      content: url(../img/logo/express.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .nodejs {
+      content: url(../img/logo/nodejs.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .python {
+      content: url(../img/logo/python.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .django {
+      content: url(../img/logo/django.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .mysql {
+      content: url(../img/logo/mysql.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .foundation {
+      content: url(../img/logo/foundation.png);
+      width: 7.5rem; }
+    section.websites .site .resume .tech .git {
+      content: url(../img/logo/git.png);
+      width: 7.5rem; }
+
 footer {
   background-color: #940d0d; }
   footer a {

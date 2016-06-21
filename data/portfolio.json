@@ -3,36 +3,34 @@
     "marsxn": {
     "name": "Marsxn.io",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
-    "url": "https://github.com/marsxn",
+    "url": "/",
+    "image":"/assets/img/portfolio/marsxn.png",
     "tech": [
       "NodeJS",
       "Express",
-      "AngularJS",
-      "MongoDB"
+      "AngularJS"
     ]}
   },{
-  "github": {
-    "name": "Github",
+  "dlfestudio": {
+    "name": "DLF Estudio",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
-    "url": "https://github.com/marsxn",
+    "url": "http://159.203.240.191",
+    "image":"/assets/img/portfolio/dlfestudio.png",
     "tech": [
       "Python", 
       "Django",
-      "MySQL",
-      "GIT",
-      "Foundation Framework"
+      "MySQL"
     ]}
   },{
-  "stackoverflow": {
-    "name": "StackOverflow",
+  "agronomia": {
+    "name": "Vivero Agronomia",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
-    "url": "https://github.com/marsxn",
+    "url": "http://viveroagronomia.com.ar/",
+    "image":"/assets/img/portfolio/agronomia.png",
     "tech": [
       "Python", 
       "Django",
-      "MySQL",
-      "GIT",
-      "Foundation Framework"
+      "MySQL"
     ]
   }
 }],

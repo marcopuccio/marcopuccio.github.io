@@ -63,3 +63,10 @@
 @mixin translate ($x, $y) {
   @include transform(translate($x, $y));
 }
+
+@mixin lang-image ($lang) {
+  .#{ $lang } {
+    content: url(../img/logo/#{ $lang }.png);
+    width: rem-calc(120);
+  }
+}

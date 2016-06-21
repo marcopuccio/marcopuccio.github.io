@@ -1,1 +1,31 @@
+section {
+  &.websites {
+    .site {
+      border: 1px solid $dark-gray;
+      padding: rem-calc(10);
+      margin-right: rem-calc(10);
+      margin-left: rem-calc(10);
 
+      .image {
+        max-height: rem-calc(250);
+        overflow: hidden;
+      }
+      .resume {
+        @include breakpoint(small-only) {
+          margin-top: rem-calc(16);
+        }
+      .tech {
+        // Lang img class
+        @include lang-image('angularjs');
+        @include lang-image('express');
+        @include lang-image('nodejs');
+        @include lang-image('python');
+        @include lang-image('django');
+        @include lang-image('mysql');
+        @include lang-image('foundation');
+        @include lang-image('git');
+      }
+      }
+    }
+  }
+}
