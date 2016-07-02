@@ -2,7 +2,7 @@
 "websites": [{
     "marsxn": {
     "name": "Marsxn.io",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
+    "summary": "Mi sitio personal fue construido en base a mi motivación de aprender nuevas tecnologías basadas en JavaScript. En este proyecto, profundizé mis conocimientos en AngularJS y NodeJS. En este sitio implementaré todas las cosas nuevas que me llamen la atención, claramente, porque el cliente soy yo :).",
     "url": "/",
     "image":"/assets/img/portfolio/marsxn.png",
     "tech": [
@@ -13,7 +13,7 @@
   },{
   "dlfestudio": {
     "name": "DLF Estudio",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
+    "summary": "Sitio profesional de estudio de contadores DLF ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django construída con mis propias librerías y otras desarrolladas específicamente para lograr el dominio total del negocio. ",
     "url": "http://159.203.240.191",
     "image":"/assets/img/portfolio/dlfestudio.png",
     "tech": [
@@ -24,7 +24,7 @@
   },{
   "agronomia": {
     "name": "Vivero Agronomia",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
+    "summary": "Sitio corporativo de Vivero Agronomía situado en Agronomía, CABA. Actualmente se muestra un sitio en contrucción ya que me encuentro trabajando sobre el proyecto final del mismo y resultaba indispensable tener algo productivo que capturara contactos y rediriga al usuario a la tienda o a las redes sociales.",
     "url": "http://viveroagronomia.com.ar/",
     "image":"/assets/img/portfolio/agronomia.png",
     "tech": [
@@ -37,14 +37,14 @@
 "libs":[{
   "simplesite": {
     "name": "Simple Site",
-    "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
-    "url": "https://github.com/marsxn" 
+    "summary":"Aplicación simple construida sobre Django para crear y administrar sitios web de una manera sencilla. El proposito principal de esta aplicación es conectarse de manera generica con otros modelos para asegurar una completa customizacion y mantener lindas URL.",
+    "url": "https://github.com/marsxn/simple-site" 
   }
 },{
   "htpl": {
     "name": "HTPL",
-    "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque in diam a varius.Phasellus orci lectus, ornare ac luctus nec, laoreet at enim. Curabitur sed volutpat metus. ",
-    "url": "https://github.com/marsxn"  
+    "summary":"Aplicacion construida en base a vistas genéricas de Django que harán posible la utilización de todas las funciones de template durante el desarrollo de plantillas.",
+    "url": "https://github.com/marsxn/django-htpl"  
   }
 }]
 }

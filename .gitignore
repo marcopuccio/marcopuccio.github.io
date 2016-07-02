@@ -1,8 +1,13 @@
+# Crap extensions
 *.swn
 *.swo
 *.swp
 
+
+# Dev Scripts
 watch.sh
 
-node_modules/
+# Compiled and npm libs
 skin/assets/css/
+node_modules/
+npm-debug.log
