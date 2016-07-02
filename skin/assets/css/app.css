@@ -189,6 +189,39 @@ h1, h2, h3, h4, h5, h6, p, ul li, label, span {
 h1 {
   font-weight: 700 !important; }
 
+/*
+Common rules for full site.
+*/
+html, body {
+  height: 100%; }
+
+html {
+  font-family: "Oswald", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga', 'kern'; }
+
+span.vader {
+  display: inline-block;
+  width: 2.75rem;
+  height: 3rem;
+  content: url(../img/vader.png); }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    span.vader {
+      width: 1.25rem;
+      height: 1.5rem; } }
+
+span.stormtrooper {
+  display: inline-block;
+  width: 2.75rem;
+  height: 3rem;
+  content: url(../img/stormtrooper.png); }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    span.stormtrooper {
+      width: 1.25rem;
+      height: 1.5rem; } }
+
 header {
   background-image: url(../img/header_bg.png); }
   header .profile img {

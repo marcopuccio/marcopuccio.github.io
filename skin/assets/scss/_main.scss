@@ -14,17 +14,17 @@ section {
         @include breakpoint(small-only) {
           margin-top: rem-calc(16);
         }
-      .tech {
-        // Lang img class
-        @include lang-image('angularjs');
-        @include lang-image('express');
-        @include lang-image('nodejs');
-        @include lang-image('python');
-        @include lang-image('django');
-        @include lang-image('mysql');
-        @include lang-image('foundation');
-        @include lang-image('git');
-      }
+        .tech {
+          // Lang img class
+          @include lang-image('angularjs');
+          @include lang-image('express');
+          @include lang-image('nodejs');
+          @include lang-image('python');
+          @include lang-image('django');
+          @include lang-image('mysql');
+          @include lang-image('foundation');
+          @include lang-image('git');
+        }
       }
     }
   }

@@ -1,0 +1,22 @@
+/*
+Common rules for full site.
+*/
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-family: $body-font-family;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga', 'kern';
+}
+
+
+// SW icons
+span {
+  @include starwars-image('vader');
+  @include starwars-image('stormtrooper');
+}

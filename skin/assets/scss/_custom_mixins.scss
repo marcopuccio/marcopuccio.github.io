@@ -60,13 +60,26 @@
   transform-origin: $origin;
 }
 
-@mixin translate ($x, $y) {
+@mixin translate($x, $y) {
   @include transform(translate($x, $y));
 }
 
-@mixin lang-image ($lang) {
+@mixin lang-image($lang) {
   .#{ $lang } {
     content: url(../img/logo/#{ $lang }.png);
     width: rem-calc(120);
+  }
+}
+
+@mixin starwars-image($char) {
+  &.#{ $char } {
+    display: inline-block;
+    width: rem-calc(44);
+    height: rem-calc(48);
+    content: url(../img/#{ $char }.png);
+    @include breakpoint(small only) {
+      width: rem-calc(20);
+      height: rem-calc(24);
+    }
   }
 }
