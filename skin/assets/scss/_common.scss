@@ -16,7 +16,7 @@ html {
 
 
 // SW icons
-span {
+h1 {
   @include starwars-image('vader');
   @include starwars-image('stormtrooper');
 }

@@ -73,13 +73,18 @@
 
 @mixin starwars-image($char) {
   &.#{ $char } {
-    display: inline-block;
-    width: rem-calc(44);
-    height: rem-calc(48);
-    content: url(../img/#{ $char }.png);
-    @include breakpoint(small only) {
-      width: rem-calc(20);
-      height: rem-calc(24);
+    &:after {
+      content: '';
+      display: inline-block;
+      background-image: url(../img/#{ $char }.png);
+      background-size: rem-calc(44) rem-calc(48); 
+      width: rem-calc(44);
+      height: rem-calc(48);
+      @include breakpoint(small only) {
+        background-size: rem-calc(20) rem-calc(24);
+        width: rem-calc(20);
+        height: rem-calc(24);
+      } 
     }
   }
 }
