@@ -11,9 +11,7 @@
         <h3><a href="{{ client.url }}" target="_new">{{ client.name }}</a></h3>
         <p>{{ client.summary }}</p>
         <div class="row martop-1 tech">
-          <div class="column" ng-repeat="tech in client.tech">
-            <span class="{{ tech | lowercase }}"></span>
-          </div>
+        <span  ng-repeat="tech in client.tech" class="{{ tech | lowercase }} marright-1 marbottom-1"></span>
         </div>
       </div>
     </div>

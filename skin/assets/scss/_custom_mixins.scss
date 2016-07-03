@@ -66,8 +66,15 @@
 
 @mixin lang-image($lang) {
   .#{ $lang } {
-    content: url(../img/logo/#{ $lang }.png);
-    width: rem-calc(120);
+    &:after {
+      content: '';
+      display: inline-block;
+      background-image: url(../img/logo/#{ $lang }.png);
+      background-size: rem-calc(150) rem-calc(48);
+      background-repeat: no-repeat; 
+      width: rem-calc(150);
+      height: rem-calc(48);
+    }
   }
 }
 
@@ -77,7 +84,8 @@
       content: '';
       display: inline-block;
       background-image: url(../img/#{ $char }.png);
-      background-size: rem-calc(44) rem-calc(48); 
+      background-size: rem-calc(44) rem-calc(48);
+      background-repeat: no-repeat;
       width: rem-calc(44);
       height: rem-calc(48);
       @include breakpoint(small only) {
