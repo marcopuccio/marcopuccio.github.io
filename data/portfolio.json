@@ -1,39 +1,43 @@
 {
-"websites": [{
+"websites": [
+  {
+    "dlfestudio": {
+      "name": "DLF Estudio",
+      "summary": "Sitio profesional de estudio de contadores DLF ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django construída con mis propias librerías y otras desarrolladas específicamente para lograr el dominio total del negocio. ",
+      "url": "http://159.203.240.191",
+      "image":"/assets/img/portfolio/dlfestudio.png",
+      "tech": [
+        "Python", 
+        "Django",
+        "MySQL"
+      ]
+    }
+  },{
     "marsxn": {
-    "name": "Marsxn.io",
-    "summary": "Mi sitio personal fue construido en base a mi motivación de aprender nuevas tecnologías basadas en JavaScript. En este proyecto, profundizé mis conocimientos en AngularJS y NodeJS. En este sitio implementaré todas las cosas nuevas que me llamen la atención, claramente, porque el cliente soy yo :).",
-    "url": "/",
-    "image":"/assets/img/portfolio/marsxn.png",
-    "tech": [
-      "NodeJS",
-      "Express",
-      "AngularJS"
-    ]}
+      "name": "Marsxn.io",
+      "summary": "Mi sitio personal fue construido en base a mi motivación de aprender nuevas tecnologías basadas en JavaScript. En este proyecto, profundizé mis conocimientos en AngularJS y NodeJS. En este sitio implementaré todas las cosas nuevas que me llamen la atención, claramente, porque el cliente soy yo :).",
+      "url": "/",
+      "image":"/assets/img/portfolio/marsxn.png",
+      "tech": [
+        "NodeJS",
+        "Express",
+        "AngularJS"
+      ]
+    }
   },{
-  "dlfestudio": {
-    "name": "DLF Estudio",
-    "summary": "Sitio profesional de estudio de contadores DLF ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django construída con mis propias librerías y otras desarrolladas específicamente para lograr el dominio total del negocio. ",
-    "url": "http://159.203.240.191",
-    "image":"/assets/img/portfolio/dlfestudio.png",
-    "tech": [
-      "Python", 
-      "Django",
-      "MySQL"
-    ]}
-  },{
-  "agronomia": {
-    "name": "Vivero Agronomia",
-    "summary": "Sitio corporativo de Vivero Agronomía situado en Agronomía, CABA. Actualmente se muestra un sitio en contrucción ya que me encuentro trabajando sobre el proyecto final del mismo y resultaba indispensable tener algo productivo que capturara contactos y rediriga al usuario a la tienda o a las redes sociales.",
-    "url": "http://viveroagronomia.com.ar/",
-    "image":"/assets/img/portfolio/agronomia.png",
-    "tech": [
-      "Python", 
-      "Django",
-      "MySQL"
-    ]
+    "agronomia": {
+      "name": "Vivero Agronomia",
+      "summary": "Sitio corporativo de Vivero Agronomía situado en Agronomía, CABA. Actualmente se muestra un sitio en contrucción ya que me encuentro trabajando sobre el proyecto final del mismo y resultaba indispensable tener algo productivo que capturara contactos y rediriga al usuario a la tienda o a las redes sociales.",
+      "url": "http://viveroagronomia.com.ar/",
+      "image":"/assets/img/portfolio/agronomia.png",
+      "tech": [
+        "Python", 
+        "Django",
+        "MySQL"
+      ]
+    }
   }
-}],
+],
 "libs":[{
   "simplesite": {
     "name": "Simple Site",
