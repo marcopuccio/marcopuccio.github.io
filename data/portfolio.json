@@ -4,7 +4,7 @@
     "dlfestudio": {
       "name": "DLF Estudio",
       "summary": "Sitio profesional de estudio de contadores DLF ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django construída con mis propias librerías y otras desarrolladas específicamente para lograr el dominio total del negocio. ",
-      "url": "http://159.203.240.191",
+      "url": "http://www.dlfestudio.com",
       "image":"/assets/img/portfolio/dlfestudio.png",
       "tech": [
         "Python", 
