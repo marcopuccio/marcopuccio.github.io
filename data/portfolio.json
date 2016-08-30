@@ -45,6 +45,12 @@
     "url": "https://github.com/marsxn/simple-site" 
   }
 },{
+   "menu-builder": {
+    "name": "Menu Builder",
+    "summary":"Aplicación de contruída sobre Django utilizada para la ceación y administración de los menues de un sitio.",
+    "url": "https://github.com/marsxn/menu-builder"  
+  }
+},{
   "htpl": {
     "name": "HTPL",
     "summary":"Aplicacion construida en base a vistas genéricas de Django que harán posible la utilización de todas las funciones de template durante el desarrollo de plantillas.",
