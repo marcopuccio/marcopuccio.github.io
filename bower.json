@@ -21,5 +21,8 @@
     "test",
     "tests"
   ],
+  "resolutions": {
+     "jquery": "2.2.4"
+   },
   "private": true
 }
