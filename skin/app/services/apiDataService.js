@@ -1,17 +1,20 @@
-app.service('apiDataService', ['$http', '$q', function($http, $q) {
+app.service('apiDataService', ['$http', function($http) {
 
   function _commonHttpCall(apiUrl){
-    var defered = $q.defer();
-    
-    $http.get('/api/' + apiUrl)
-      .success(function(data) {
-        defered.resolve(data);
-      })
-      .error(function(err) {
-        defered.resolve(err); 
-      });
+    var httpOptions = {
+      method: 'GET',
+      url: '/api/' + apiUrl
+    };
 
-    return defered.promise;
+    return $http(httpOptions)
+      .then(
+        function successCallback(response) {
+          return response.data
+        },
+        function errorCallback(response) {
+        return response;  
+        }
+      );
   }
 
   // Returns Marxn Profile.
@@ -29,7 +32,6 @@ app.service('apiDataService', ['$http', '$q', function($http, $q) {
    var httpPromise = _commonHttpCall('portfolio');
     return httpPromise; 
   }
-
 
   return {
     getMarsxnProfile: getMarsxnProfile,

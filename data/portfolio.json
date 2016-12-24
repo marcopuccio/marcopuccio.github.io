@@ -1,6 +1,18 @@
 {
 "websites": [
   {
+    "agronomia": {
+      "name": "Vivero Agronomia",
+      "summary": "Sitio corporativo de Vivero Agronomía situado en Agronomía, CABA. Es una app construida en Python/Django construída con mis propias librerías y con otras custom. El propósito de este site, es mostrar las categorías de los productos y novedades, para convertir contactos y acercar al usuario a la tienda o redes sociales.",
+      "url": "http://viveroagronomia.com.ar/",
+      "image":"/assets/img/portfolio/agronomia.png",
+      "tech": [
+        "Python", 
+        "Django",
+        "MySQL"
+      ]
+    }
+  },{
     "dlfestudio": {
       "name": "DLF Estudio",
       "summary": "Sitio profesional de estudio de contadores DLF ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django construída con mis propias librerías y otras desarrolladas específicamente para lograr el dominio total del negocio. ",
@@ -24,18 +36,6 @@
         "AngularJS"
       ]
     }
-  },{
-    "agronomia": {
-      "name": "Vivero Agronomia",
-      "summary": "Sitio corporativo de Vivero Agronomía situado en Agronomía, CABA. Actualmente se muestra un sitio en contrucción ya que me encuentro trabajando sobre el proyecto final del mismo y resultaba indispensable tener algo productivo que capturara contactos y rediriga al usuario a la tienda o a las redes sociales.",
-      "url": "http://viveroagronomia.com.ar/",
-      "image":"/assets/img/portfolio/agronomia.png",
-      "tech": [
-        "Python", 
-        "Django",
-        "MySQL"
-      ]
-    }
   }
 ],
 "libs":[{
@@ -49,6 +49,12 @@
     "name": "Menu Builder",
     "summary":"Aplicación de contruída sobre Django utilizada para la ceación y administración de los menues de un sitio.",
     "url": "https://github.com/marsxn/menu-builder"  
+  }
+},{
+   "blogoland": {
+    "name": "Blogoland",
+    "summary":"Aplicación de contruída sobre Django utilizada para la ceación y administración de un portal de notas y/o blog.",
+    "url": "https://github.com/marsxn/blogoland"
   }
 },{
   "htpl": {
