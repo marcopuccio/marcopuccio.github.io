@@ -42,25 +42,25 @@
   "simplesite": {
     "name": "Simple Site",
     "summary":"Aplicación simple construida sobre Django para crear y administrar sitios web de una manera sencilla. El proposito principal de esta aplicación es conectarse de manera generica con otros modelos para asegurar una completa customizacion y mantener lindas URL.",
-    "url": "https://github.com/marsxn/simple-site" 
+    "url": "https://github.com/marcopuccio/simple-site" 
   }
 },{
    "menu-builder": {
     "name": "Menu Builder",
     "summary":"Aplicación de contruída sobre Django utilizada para la ceación y administración de los menues de un sitio.",
-    "url": "https://github.com/marsxn/menu-builder"  
+    "url": "https://github.com/marcopuccio/menu-builder"  
   }
 },{
    "blogoland": {
     "name": "Blogoland",
     "summary":"Aplicación de contruída sobre Django utilizada para la ceación y administración de un portal de notas y/o blog.",
-    "url": "https://github.com/marsxn/blogoland"
+    "url": "https://github.com/marcopuccio/blogoland"
   }
 },{
   "htpl": {
     "name": "HTPL",
     "summary":"Aplicacion construida en base a vistas genéricas de Django que harán posible la utilización de todas las funciones de template durante el desarrollo de plantillas.",
-    "url": "https://github.com/marsxn/django-htpl"  
+    "url": "https://github.com/marcopuccio/django-htpl"  
   }
 }]
 }
