@@ -13,6 +13,18 @@
       ]
     }
   },{
+    "segurosgiovanelli": {
+      "name": "Seguros Giovanelli",
+      "summary": "Sitio profesional de productores asesores de seguros ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django ",
+      "url": "http://www.segurosgiovanelli.com.ar",
+      "image":"/assets/img/portfolio/segurosgiovanelli.jpg",
+      "tech": [
+        "Python", 
+        "Django",
+        "MySQL"
+      ]
+    }
+  },{
     "dlfestudio": {
       "name": "DLF Estudio",
       "summary": "Sitio profesional de estudio de contadores DLF ubicado en Villa Ballester, Buenos Aires. Es una aplicación construidaa sobre Python/Django construída con mis propias librerías y otras desarrolladas específicamente para lograr el dominio total del negocio. ",
