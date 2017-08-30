@@ -1,0 +1,8 @@
+# Crap extensions
+*.swn
+*.swo
+*.swp
+
+# Compiled and npm libs
+node_modules/
+npm-debug.log
