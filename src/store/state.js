@@ -5,6 +5,5 @@ export default {
     app: true,
   },
   profile: {},
-  porfolio: {},
   libs: {},
 };

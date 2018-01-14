@@ -8,9 +8,6 @@ export default {
   hydrateProfile(state, payload) {
     state.profile = payload;
   },
-  hydratePortfolio(state, payload) {
-    state.portfolio = payload;
-  },
   hydrateLibs(state, payload) {
     state.libs = payload;
   },

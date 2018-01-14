@@ -5,9 +5,6 @@ export default {
   profile(state) {
     return state.profile;
   },
-  porfolio(state) {
-    return state.portfolio;
-  },
   libs(state) {
     return state.libs;
   },
