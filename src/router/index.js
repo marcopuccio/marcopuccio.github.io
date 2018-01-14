@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Hero from '@/components/Hero';
+import Home from '@/components/Home';
 
 Vue.use(VueRouter);
 
@@ -10,8 +10,8 @@ export default new VueRouter({
   routes: [
     {
       path: '/',
-      name: 'Hero',
-      component: Hero,
+      name: 'Home',
+      component: Home,
     },
   ],
 });
