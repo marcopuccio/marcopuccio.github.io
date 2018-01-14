@@ -1,0 +1,21 @@
+
+.loadingTitle {
+  font-size: 6em;
+  animation-name: loading;
+  animation-delay: 0ms;
+  animation-direction: normal;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0.3;
+  }
+  3% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
