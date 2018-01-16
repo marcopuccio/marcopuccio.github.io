@@ -1,3 +1,35 @@
-<header>
-  <img :src="profile.image.url" :alt="profile.image.alt">
-</header>
+<nav id="navbar" class="navbar is-danger">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item image-link" href="/">
+        <img :src="profile.image.url" :alt="profile.image.alt" class="image">
+      </a>
+
+      <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navMenuDocumentation" class="navbar-menu">
+
+      <div class="navbar-start">
+        <router-link :to="{ name: 'home' }" class="navbar-item">
+          Home
+        </router-link>
+        <router-link :to="{ name: 'home' }" class="navbar-item">
+          About Me
+        </router-link>
+        <router-link :to="{ name: 'home' }" class="navbar-item">
+          Projects
+        </router-link>
+      </div>
+
+      <div class="navbar-end">
+        <SocialMediaLink v-for="sm in social" :key="sm.slug" :social-media="sm" style-classes="navbar-item" />
+      </div>
+
+    </div>
+  </div>
+</nav>

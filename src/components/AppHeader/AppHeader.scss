@@ -1,0 +1,27 @@
+@import '../../shared/colors.scss';
+
+a {
+  color: $black;
+  &:hover {
+    color: $red;
+  }
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  background: none;
+}
+
+.image-link {
+  padding: 0;
+  &:hover {
+    background: none;
+  }
+}
+
+.image {
+  max-height: 5rem;
+  margin: 7px 7px 0 0;
+  border-radius: 50%;
+}
