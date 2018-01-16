@@ -7,7 +7,7 @@ import Component from 'vue-class-component';
 })
 export default class SocialMediaLink extends Vue {
 
-  get awesowmeIcon() {
+  get awesome() {
     return `fa fa-${this.socialMedia.slug}`;
   }
 
