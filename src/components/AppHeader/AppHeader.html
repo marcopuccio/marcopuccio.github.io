@@ -1,9 +1,9 @@
 <nav id="navbar" class="navbar is-danger">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item image-link" href="/">
+      <router-link :to="{ name: 'home' }" class="navbar-item image-link">
         <img :src="profile.image.url" :alt="profile.image.alt" class="image">
-      </a>
+      </router-link>
 
       <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
         <span></span>
@@ -18,7 +18,7 @@
         <router-link :to="{ name: 'home' }" class="navbar-item">
           Home
         </router-link>
-        <router-link :to="{ name: 'home' }" class="navbar-item">
+        <router-link :to="{ name: 'aboutMe' }" class="navbar-item">
           About Me
         </router-link>
         <router-link :to="{ name: 'home' }" class="navbar-item">
