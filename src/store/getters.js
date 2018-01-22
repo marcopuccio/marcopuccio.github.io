@@ -8,6 +8,9 @@ export default {
   social(state) {
     return Object.values(state.profile.social).filter(s => s.visible);
   },
+  aboutMe(state) {
+    return state.aboutMe;
+  },
   libs(state) {
     return state.libs;
   },

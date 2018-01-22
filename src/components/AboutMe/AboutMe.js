@@ -4,7 +4,7 @@ import { mapGetters } from 'vuex';
 
 
 @Component({
-  computed: mapGetters(['profile']),
+  computed: mapGetters(['aboutMe']),
 })
 export default class AboutMe extends Vue {
 }
