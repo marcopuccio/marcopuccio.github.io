@@ -8,15 +8,9 @@
   </section>
   <section class="section">
     <div class="container content">
-      <p class="is-size-5">
-        {{ aboutMe.whoami }}
-      </p>
-      <p class="is-size-5">
-        {{ aboutMe.goal }}
-      </p>
-      <p class="is-size-5">
-        {{ aboutMe.challenge }}
-      </p>
+      <TextSection title="Who am I" :text="aboutMe.whoami"/>
+      <TextSection title="My Goal" :text="aboutMe.goal"/>
+      <TextSection title="Challenge" :text="aboutMe.challenge"/>
     </div>
   </section>
 </div>
