@@ -5,7 +5,7 @@ import '@/shared/shadows.scss';
 
 import Vue from 'vue';
 
-import AppRoot from '@/components/AppRoot';
+import AppRoot from '@/views/AppRoot';
 
 import router from '@/router';
 import store from '@/store';
