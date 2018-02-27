@@ -7,4 +7,5 @@ export default {
   profile: {},
   libs: {},
   aboutMe: {},
+  jobs: {},
 };

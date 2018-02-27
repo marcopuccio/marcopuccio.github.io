@@ -7,6 +7,7 @@ export default {
       commit('hydrateState', { key: 'profile', data: data.profile });
       commit('hydrateState', { key: 'aboutMe', data: data.aboutme });
       commit('hydrateState', { key: 'libs', data: data.libs });
+      commit('hydrateState', { key: 'jobs', data: data.jobs });
       commit('loading', { app: false });
     });
   },

@@ -14,4 +14,7 @@ export default {
   libs(state) {
     return state.libs;
   },
+  jobs(state) {
+    return state.jobs;
+  },
 };
