@@ -5,13 +5,7 @@ export default {
       state.loading[pos[0]] = pos[1];
     });
   },
-  hydrateProfile(state, payload) {
-    state.profile = payload;
-  },
-  hydrateAboutMe(state, payload) {
-    state.aboutMe = payload;
-  },
-  hydrateLibs(state, payload) {
-    state.libs = payload;
+  hydrateState(state, { key, data }) {
+    state[key] = data;
   },
 };
