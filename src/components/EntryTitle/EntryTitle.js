@@ -1,22 +1,18 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 
-import RandomSWIcon from '@/components/RandomSWIcon';
-
 
 @Component({
-  components: { RandomSWIcon },
   props: {
     title: {
       type: String,
       default: '',
     },
-    text: {
+    url: {
       type: String,
       default: '',
     },
   },
 })
-export default class TextSection extends Vue {
-
+export default class EntryTitle extends Vue {
 }

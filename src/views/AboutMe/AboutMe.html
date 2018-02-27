@@ -1,10 +1,10 @@
 <div>
-  <PageHero title="About Me" />
+  <PageHero title="Sobre Mi" />
   <section class="section">
     <div class="container content">
-      <TextSection title="Who am I" :text="aboutMe.whoami"/>
-      <TextSection title="My Goal" :text="aboutMe.goal"/>
-      <TextSection title="Challenge" :text="aboutMe.challenge"/>
+      <Entry title="whoami" :content="aboutMe.whoami" />
+      <Entry title="Objetivo" :content="aboutMe.goal" />
+      <Entry title="Desafío" :content="aboutMe.challenge" />
     </div>
   </section>
 </div>

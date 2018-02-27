@@ -1,0 +1,8 @@
+@import '../../shared/colors.scss';
+
+.entry-link {
+  color: $red;
+  &:hover {
+    color: $black;
+  }
+}

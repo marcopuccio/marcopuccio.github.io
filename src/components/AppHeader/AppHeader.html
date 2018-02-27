@@ -5,24 +5,24 @@
         <img :src="profile.image.url" :alt="profile.image.alt" class="image">
       </router-link>
 
-      <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
+      <div id="navbarBurger" class="navbar-burger burger" data-target="navigation">
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
 
-    <div id="navMenuDocumentation" class="navbar-menu">
+    <div id="navigation" class="navbar-menu">
 
       <div class="navbar-start">
         <router-link :to="{ name: 'home' }" class="navbar-item">
           Home
         </router-link>
         <router-link :to="{ name: 'aboutMe' }" class="navbar-item">
-          About Me
+          Sobre Mi
         </router-link>
-        <router-link :to="{ name: 'home' }" class="navbar-item">
-          Projects
+        <router-link :to="{ name: 'experience' }" class="navbar-item">
+          Experiencia
         </router-link>
       </div>
 

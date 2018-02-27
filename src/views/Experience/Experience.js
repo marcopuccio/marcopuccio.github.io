@@ -5,12 +5,13 @@ import { mapGetters } from 'vuex';
 import Entry from '@/components/Entry';
 import PageHero from '@/components/PageHero';
 
+
 @Component({
   components: {
-    PageHero,
     Entry,
+    PageHero,
   },
-  computed: mapGetters(['aboutMe']),
+  computed: mapGetters(['libs']),
 })
-export default class AboutMe extends Vue {
+export default class Experience extends Vue {
 }
