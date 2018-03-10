@@ -2,6 +2,26 @@
   <PageHero title="Experiencia" />
 
   <section class="section container content">
+    <div>
+      <h1 class="is-size-2">Trabajos</h1>
+    </div>
+    <div class="columns is-multiline">
+      <div v-for="job in jobs" :key="job.name" class="column is-6">
+        <Entry
+          :title="job.name"
+          :content="`${job.from} - ${job.to}`"
+          :url="job.url"
+        />
+      </div>
+    </div>
+  </section>
+
+  <Separator />
+
+  <section class="section container content">
+    <div>
+      <h1 class="is-size-2">Open Source</h1>
+    </div>
     <div class="columns is-multiline">
       <div v-for="lib in libs" :key="lib.name" class="column is-6">
         <Entry :title="lib.name" :content="lib.description" :url="lib.url" />
