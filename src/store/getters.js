@@ -15,6 +15,6 @@ export default {
     return state.libs;
   },
   jobs(state) {
-    return state.jobs;
+    return Object.values(state.jobs).sort((a, b) => a.order > b.order);
   },
 };
