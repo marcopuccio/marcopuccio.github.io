@@ -1,13 +1,13 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 
+import AppTitle from '@/components/AppTitle';
 import RandomSWIcon from '@/components/RandomSWIcon';
-import EntryTitle from '@/components/EntryTitle';
 
 
 @Component({
   components: {
-    EntryTitle,
+    AppTitle,
     RandomSWIcon,
   },
   props: {
@@ -26,11 +26,4 @@ import EntryTitle from '@/components/EntryTitle';
   },
 })
 export default class Entry extends Vue {
-  get safeTitle() {
-    return (
-      this.url ?
-      `<a href="${this.url}" class="entry-link" target="_blank">${this.title}</a>` :
-      this.title
-    );
-  }
 }

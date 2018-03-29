@@ -13,7 +13,6 @@
     </div>
 
     <div id="navigation" class="navbar-menu">
-
       <div class="navbar-start">
         <router-link :to="{ name: 'home' }" class="navbar-item">
           Home
@@ -25,11 +24,9 @@
           Experiencia
         </router-link>
       </div>
-
       <div class="navbar-end">
         <SocialMediaLink v-for="sm in social" :key="sm.slug" :social-media="sm" style-classes="navbar-item" />
       </div>
-
     </div>
   </div>
 </nav>

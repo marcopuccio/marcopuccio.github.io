@@ -15,6 +15,8 @@ export default {
     return state.libs;
   },
   jobs(state) {
-    return Object.values(state.jobs).sort((a, b) => a.order > b.order);
+    return Object.values(state.jobs)
+      .filter(s => s.visible)
+      .sort((a, b) => a.order > b.order);
   },
 };

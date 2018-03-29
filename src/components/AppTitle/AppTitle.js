@@ -14,5 +14,5 @@ import Component from 'vue-class-component';
     },
   },
 })
-export default class EntryTitle extends Vue {
+export default class AppTitle extends Vue {
 }
