@@ -5,8 +5,13 @@ export default {
   profile(state) {
     return state.profile;
   },
-  social(state) {
-    return Object.values(state.profile.social).filter(s => s.visible);
+  social(state, getters) {
+    let socials = [];
+    const profile = getters.profile;
+    if (profile) {
+      socials = Object.values(profile.social).filter(s => s.visible);
+    }
+    return socials;
   },
   aboutMe(state) {
     return state.aboutMe;
