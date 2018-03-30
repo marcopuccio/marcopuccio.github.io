@@ -1,14 +1,14 @@
 <div class="job">
   <div class="columns">
-    <div class="column is-one-third">
-      <img :src="job.image" :alt="job.name"/>
+    <div class="column is-one-quarter job-image-bg">
+      <img class="job-image" :src="job.image" :alt="job.name"/>
     </div>
     <div class="column">
       <h3 class="is-size-3">
         <AppTitle :title="job.name" :url="job.url"/>
       </h3>
       <div>
-        <p class="job-description">{{ job.description }}</p>
+        <p class="is-size-5 job-description">{{ job.description }}</p>
         <small>{{ job.from }} - {{ job.to }}</small>
       </div>
     </div>
