@@ -23,9 +23,21 @@
         <router-link :to="{ name: 'experience' }" class="navbar-item">
           Experiencia
         </router-link>
+        <a
+          href="https://github.com/marcopuccio/marcopuccio.github.io/tree/dev"
+          target="_blank"
+          class="navbar-item"
+        >
+          this.code <i class="fa fa-github-alt this-code-icon"></i>
+        </a>
       </div>
       <div class="navbar-end">
-        <SocialMediaLink v-for="sm in social" :key="sm.slug" :social-media="sm" style-classes="navbar-item" />
+        <SocialMediaLink
+          v-for="sm in social"
+          :key="sm.slug"
+          :social-media="sm"
+          style-classes="navbar-item"
+        />
       </div>
     </div>
   </div>
