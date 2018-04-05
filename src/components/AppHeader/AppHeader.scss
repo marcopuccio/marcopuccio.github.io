@@ -2,6 +2,7 @@
 
 a {
   color: $black;
+  transition: 0.3s;
   &:hover {
     color: $red;
   }
