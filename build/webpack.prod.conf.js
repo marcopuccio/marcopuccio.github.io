@@ -94,7 +94,11 @@ var webpackConfig = merge(baseWebpackConfig, {
       },
       {
         from: path.resolve(__dirname, '../README.md'),
-        to: config.build.assetsRoot,
+        to: config.build.assetsRoot
+      },
+      {
+        from: path.resolve(__dirname, '../LICENSE'),
+        to: config.build.assetsRoot
       }
     ])
   ]
