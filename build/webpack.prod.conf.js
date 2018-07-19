@@ -93,8 +93,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       },
       {
-        from: path.resolve(__dirname, '../CNAME'),
-        to: config.build.cnameBuildPath
+        from: path.resolve(__dirname, '../README.md'),
+        to: config.build.assetsRoot,
       }
     ])
   ]
